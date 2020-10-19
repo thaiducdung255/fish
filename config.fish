@@ -1,15 +1,12 @@
-# proxy config
-export http_proxy="http://proxy.hcm.fpt.vn:80/"
-export https_proxy="http://proxy.hcm.fpt.vn:80/"
-
 # source aliases
 alias scc_vpn='sudo openvpn --config ~/Downloads/client.ovpn --auth-user-pass --auth-retry interact'
 alias ssh_trigger='ssh gianglmc@172.27.228.128'
 alias docker_mysql='sudo docker run --name=mysql --env="MYSQL_ROOT_PASSWORD=mysql" mysql'
 alias code='cd ~/Projects && ls'
 alias vcf='cd ~/.config/nvim'
-alias sc='vim ~/.bash_aliases'
-alias ss='source ~/.bashrc && source ~/.bash_aliases'
+alias fcf='cd ~/.config/fish'
+alias sc='vim ~/.config/fish/config.fish'
+alias ss='source ~/.config/fish/config.fish'
 ##################  SHH aliases  #############################
 alias cm-api='ssh dungscc@172.30.13.180'
 alias cm-st='ssh dungtd10@172.30.13.180 -p 1009'
