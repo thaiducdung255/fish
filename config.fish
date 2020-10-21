@@ -21,4 +21,4 @@ alias at-ser='ssh dungscc@172.30.13.180 -p 4004'
 alias mg167='mongo 172.30.13.167'
 
 ################  FISH SHORTCUT aliases  #####################
-bind \ef 'accept-autosuggestion'
+bind \; 'accept-autosuggestion'
